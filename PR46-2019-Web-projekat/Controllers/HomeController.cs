@@ -12,7 +12,7 @@ namespace PR46_2019_Web_projekat.Controllers
         {
             ViewBag.Title = "Home Page";
 
-            return View();
+            return View();//
         }
     }
 }
