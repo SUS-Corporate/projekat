@@ -19,6 +19,16 @@ namespace PR46_2019_Web_projekat
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+
+            config.Routes.MapHttpRoute(
+                name: "ControllerAndAction",
+                routeTemplate: "api/{controller}/{action}"
+            );
+
+            config.Routes.MapHttpRoute(
+                name: "ControllerAndActionAndId",
+                routeTemplate: "api/{controller}/{action}/{id}"
+            );
         }
     }
 }
