@@ -1,17 +1,330 @@
 ﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+    background-color: #97908e;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+li, a {
+    color: antiquewhite;
+    text-decoration: none;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #372c2a;
+}
+
+.nav_links {
+    list-style: none;
+    margin: 0;
+    background-color: #372c2a;
+}
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0 20px;
+        background-color: #372c2a;
+    }
+
+        .nav_links li a {
+            transition: all 0.3s ease 0s;
+            background-color: #372c2a;
+        }
+
+            .nav_links li a:hover {
+                color: #71615c;
+                text-decoration: none;
+            }
+
+#fitness-centers-table {
+    border: 2px;
+    background-color: #71615c;
+}
+
+.container table {
+    border-collapse: separate;
+    border-spacing: 20px 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    margin: 5px 5px 5px 5px;
+}
+
+button {
+    align-items: center;
+    background-color: #584845;
+    border-radius: 200px;
+    border-width: 0;
+    color: #FFFFFF;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+}
+
+#fitness-centers-table th {
+    cursor: pointer;
+}
+
+#fitness-centers-div {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#fitness-centers-table, th {
+    table-layout: fixed;
+    width: 60%;
+    border-collapse: collapse;
+    border: 3px solid #372c2a;
+    text-align: center;
+}
+
+#fitness-centers-search {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#search-table {
+    width: 60%;
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+}
+
+#search-min-year, #search-max-year {
+    width: 70px;
+    color: black;
+}
+
+#search-name, #search-address {
+    color: black;
+    width: 150px;
+}
+
+#fitness-center-details {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#fitness-center-details-table {
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+    width: 50%;
+}
+
+#group-trainings-details {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#group-trainings-details-table {
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+    width: 80%;
+}
+
+    #group-trainings-details-table tr {
+        border: 3px solid #372c2a;
+    }
+
+.comment {
+    display: inline-block;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    border: 2px dotted #372c2a;
+    background-color: #71615c;
+    color: antiquewhite;
+    padding: 10px 10px 10px 10px;
+}
+
+#comments-details {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#my-trainings-div {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#group-trainings-details-tablee {
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+    width: 80%;
+}
+
+    #group-trainings-details-tablee tr {
+        border: 3px solid #372c2a;
+    }
+
+    #group-trainings-details-tablee th {
+        cursor: pointer;
+    }
+
+#search-table-gt {
+    width: 60%;
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+}
+
+    #search-table-gt input {
+        color: black;
+        width: 150px;
+    }
+
+#trainings-search {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+#new-comment {
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: flex;
+    margin: auto;
+    color: antiquewhite;
+}
+
+#new-comment-table {
+    width: 40%;
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+}
+
+#comment-content {
+    color: black;
+    width: 250px;
+}
+
+#comment-grade {
+    color: black;
+}
+
+
+.btn-show-tr {
+    align-items: center;
+    margin: 10px 25px 25px 10px;
+}
+
+#new-trainings {
+    text-align: center;
+    color: antiquewhite;
+}
+
+#old-trainings {
+    text-align: center;
+    color: antiquewhite;
+}
+
+#search-table-gt-old {
+    width: 100%;
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+}
+
+#old-trainings-details-tablee {
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+    width: 100%;
+}
+
+    #old-trainings-details-tablee th {
+        cursor: pointer;
+    }
+
+.black {
+    color: black;
+}
+
+#new-trainings-details-tablee {
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+    width: 100%;
+}
+
+#new-training-div {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#modify-training-div {
+    width: 100%;
+    table-layout: fixed;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#new-training-name, #new-training-type, #new-training-duration, #new-training-datetime, #new-training-duration, #new-training-capacity {
+    color: black;
+}
+
+#modify-training-name, #modify-training-type, #modify-training-duration, #modify-training-datetime, #modify-training-duration, #modify-training-capacity {
+    color: black;
+}
+
+#visitors-table {
+    table-layout: fixed;
+    text-align: center;
+    width: 20%;
+    color: antiquewhite;
+}
+
+#trainer-table {
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+    color: antiquewhite;
+    width: 80%;
+}
+
+#centers-table {
+    table-layout: fixed;
+    background-color: #71615c;
+    border: 3px solid #372c2a;
+    text-align: center;
+    color: antiquewhite;
+    width: 90%;
 }
