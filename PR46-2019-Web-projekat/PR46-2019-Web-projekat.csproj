@@ -160,6 +160,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\classes\Address.cs" />
+    <Compile Include="Models\classes\Comment.cs" />
+    <Compile Include="Models\classes\FitnessCenter.cs" />
+    <Compile Include="Models\classes\GroupTrainings.cs" />
+    <Compile Include="Models\classes\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -219,7 +224,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="html\" />
-    <Folder Include="Models\classes\" />
     <Folder Include="Models\DTO\" />
   </ItemGroup>
   <ItemGroup>

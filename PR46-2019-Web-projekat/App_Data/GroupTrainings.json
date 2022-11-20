@@ -1,0 +1,122 @@
+[
+  {
+    "Id": 1,
+    "TrainingName": "Zagrevanje 123",
+    "Type": 1,
+    "CenterId": 1,
+    "Duration": 30,
+    "Appointment": "2022-10-22T21:22:20",
+    "Capacity": 10,
+    "Visitors": [
+      1,
+      8
+    ],
+    "Exist": true
+  },
+  {
+    "Id": 2,
+    "TrainingName": "Razigravanja",
+    "Type": 0,
+    "CenterId": 2,
+    "Duration": 30,
+    "Appointment": "2022-08-20T21:22:20",
+    "Capacity": 15,
+    "Visitors": [
+      1
+    ],
+    "Exist": true
+  },
+  {
+    "Id": 6,
+    "TrainingName": "Istezanje",
+    "Type": 1,
+    "CenterId": 1,
+    "Duration": 35,
+    "Appointment": "2022-07-25T21:22:20",
+    "Capacity": 20,
+    "Visitors": [
+      1
+    ],
+    "Exist": true
+  },
+  {
+    "Id": 3,
+    "TrainingName": "Uigravanje",
+    "Type": 2,
+    "CenterId": 1,
+    "Duration": 40,
+    "Appointment": "2022-09-01T21:22:20",
+    "Capacity": 10,
+    "Visitors": [],
+    "Exist": true
+  },
+  {
+    "Id": 4,
+    "TrainingName": "Vezbanje",
+    "Type": 0,
+    "CenterId": 1,
+    "Duration": 30,
+    "Appointment": "2022-10-22T21:22:20",
+    "Capacity": 20,
+    "Visitors": [],
+    "Exist": false
+  },
+  {
+    "Id": 5,
+    "TrainingName": "Rehabilitacija",
+    "Type": 0,
+    "CenterId": 1,
+    "Duration": 90,
+    "Appointment": "2022-10-10T21:22:20",
+    "Capacity": 20,
+    "Visitors": [
+      1,
+      8
+    ],
+    "Exist": true
+  },
+  {
+    "Id": 7,
+    "TrainingName": "NOVITRENIGN",
+    "Type": 1,
+    "CenterId": 1,
+    "Duration": 30,
+    "Appointment": "2022-10-10T20:00:20",
+    "Capacity": 30,
+    "Visitors": [],
+    "Exist": true
+  },
+  {
+    "Id": 8,
+    "TrainingName": "test naziv",
+    "Type": 0,
+    "CenterId": 2,
+    "Duration": 16,
+    "Appointment": "2022-09-16T21:26:00",
+    "Capacity": 0,
+    "Visitors": [],
+    "Exist": true
+  },
+  {
+    "Id": 9,
+    "TrainingName": "Ovo je test 2",
+    "Type": 2,
+    "CenterId": 2,
+    "Duration": 20,
+    "Appointment": "2022-09-16T21:28:00",
+    "Capacity": 0,
+    "Visitors": [],
+    "Exist": true
+  },
+  {
+    "Id": 10,
+    "TrainingName": "ovo je test 3",
+    "Type": 0,
+    "CenterId": 2,
+    "Duration": 15,
+    "Appointment": "2022-09-15T21:32:00",
+    "Capacity": 0,
+    "Visitors": [],
+    "Exist": true
+  }
+]
