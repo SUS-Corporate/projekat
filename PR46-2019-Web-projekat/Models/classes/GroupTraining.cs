@@ -5,7 +5,7 @@ using System.Web;
 
 namespace PR46_2019_Web_projekat.Models.classes
 {
-    public class GroupTrainings
+    public class GroupTraining
     {
         public int Id { get; set; }
         public string TrainingName { get; set; }

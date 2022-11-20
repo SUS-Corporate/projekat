@@ -162,9 +162,16 @@
     </Compile>
     <Compile Include="Models\classes\Address.cs" />
     <Compile Include="Models\classes\Comment.cs" />
+    <Compile Include="Models\classes\CommentManager.cs" />
+    <Compile Include="Models\classes\Enumerations.cs" />
     <Compile Include="Models\classes\FitnessCenter.cs" />
-    <Compile Include="Models\classes\GroupTrainings.cs" />
+    <Compile Include="Models\classes\FitnessCenterManager.cs" />
+    <Compile Include="Models\classes\GroupTraining.cs" />
+    <Compile Include="Models\classes\GroupTrainingManager.cs" />
+    <Compile Include="Models\classes\Login_data.cs" />
+    <Compile Include="Models\classes\PersonModel.cs" />
     <Compile Include="Models\classes\User.cs" />
+    <Compile Include="Models\classes\UserManager.cs" />
     <Compile Include="Models\DTO\Account.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
