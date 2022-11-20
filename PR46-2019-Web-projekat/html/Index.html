@@ -2,9 +2,56 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/Index.js"></script>
+    <script src="../Scripts/Navigation.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/Site.css" rel="stylesheet" />
+    <title>Fitnes centri</title>
 </head>
 <body>
-    <p>JEBO SAM TI MAMU</p>
+    <header>
+        <nav class="nav-left>
+            <ul class="nav_links">
+                <li><a id="nav-index" href="#">Fitnes Centri</a></li>
+                <li><a id="nav-history" href="#">Istorija</a></li>
+                <li><a id="nav-my-trainings" href="#">Moji treninzi</a></li>
+                <li><a id="nav-edit-trainers" href="#">Dodaj trenera</a></li>
+                <li><a id="nav-edit-centers" href="#">Upravljaj fitnes centrima</a></li>
+                <li><a id="nav-comments" href="#">Komentari</a></li>
+            </ul>
+            <nav class="nav-right">
+                <ul ul class="nav_links">
+                    <li><a id="nav-registration" href="#">Registracija</a></li>
+                    <li><a id="nav-login" href="#">Prijava</a></li>
+                    <li><a id="nav-profile" href="#">Profil</a></li>
+                    <li><a id="nav-sign_out" href="#">Odjava</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <br />
+    <br />
+    <div id="fitness-centers-search">
+        <table id="search-table">
+            <tr>
+                <th rowspan="2">Pretraga</th>
+                <th>Naziv</th>
+                <th>Adresa</th>
+                <th>Godina otvaranja</th>
+                <th rowspan="2"><button id="search-button">Pretrazi</button></th>
+            </tr>
+            <tr>
+                <td><input type="text" id="search-name" placeholder="Ime" /></td>
+                <td><input type="text" id="search-address" placeholder="Adresa" /></td>
+                <td><input type="number" id="search-min-year" min="1999" max="2022" placeholder="min" /><input type="number" id="search-max-year" min="1999" max="2022" placeholder="max" /></td>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <br />
+    <div id="fitness-centers-div">
+    </div>
 </body>
 </html>

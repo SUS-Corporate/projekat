@@ -177,7 +177,16 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="html\Comments.html" />
+    <Content Include="html\Edit_centers.html" />
+    <Content Include="html\Edit_trainers.html" />
+    <Content Include="html\FitnessCenterDetails.html" />
+    <Content Include="html\History.html" />
     <Content Include="html\Index.html" />
+    <Content Include="html\Login.html" />
+    <Content Include="html\My_trainings.html" />
+    <Content Include="html\Profile.html" />
+    <Content Include="html\Registration.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -218,11 +227,6 @@
     </Content>
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\Site.css" />
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

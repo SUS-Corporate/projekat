@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <script src="../Scripts/History.js"></script>
+    <script src="../Scripts/Navigation.js"></script>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/Site.css" rel="stylesheet" />
+    <title>Istorija</title>
+</head>
+<body>
+    <!---------------HEADER WITH MENU-------------------->
+    <header>
+        <nav class="nav-left">
+            <ul class="nav_links">
+                <li><a id="nav-index" href="#">Fitnes Centri</a></li>
+                <li><a id="nav-history" href="#">Istorija</a></li>
+                <li><a id="nav-my-trainings" href="#">Moji treninzi</a></li>
+                <li><a id="nav-edit-trainers" href="#">Dodaj trenera</a></li>
+                <li><a id="nav-edit-centers" href="#">Upravljaj fitnes centrima</a></li>
+                <li><a id="nav-comments" href="#">Komentari</a></li>
+            </ul>
+        </nav>
+        <nav class="nav-right">
+            <ul ul class="nav_links">
+                <li><a id="nav-registration" href="#">Registracija</a></li>
+                <li><a id="nav-login" href="#">Prijava</a></li>
+                <li><a id="nav-profile" href="#">Profil</a></li>
+                <li><a id="nav-sign_out" href="#">Odjava</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--------------------HOME--------------------------------->
+    <br />
+    <br />
+
+    <div id="trainings-search">
+        <table id="search-table-gt">
+            <tr>
+                <th rowspan="2">Pretraga</th>
+                <th>Naziv centra</th>
+                <th>Naziv treninga</th>
+                <th>Tip treninga</th>
+                <th rowspan="2"><button id="search-button">Pretrazi</button></th>
+            </tr>
+            <tr>
+                <td><input type="text" id="search-name-center" placeholder="Centar" /></td>
+                <td><input type="text" id="search-name-training" placeholder="Naziv" /></td>
+                <td><input type="text" id="search-type-training" placeholder="Tip" /></td>
+            </tr>
+
+        </table>
+    </div>
+    <br />
+    <br />
+    <div id="my-trainings-div">
+        <h2>Poseceni grupni treninzi</h2>
+    </div>
+    <div id="my-trainings-div">
+        <table id="group-trainings-details-tablee">
+            <colgroup>
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:20%">
+                <col style="width:25%">
+                <col style="width:15%">
+                <col style="width:15%">
+            </colgroup>
+            <tr>
+                <th>Naziv centra</th>
+                <th>Naziv treninga</th>
+                <th>Tip</th>
+                <th>Trajanje</th>
+                <th>Datum / Vreme</th>
+                <th>Prijavljeno/Ukupno</th>
+                <th>Ostavi komentar</th>
+            </tr>
+        </table>
+    </div>
+    <br />
+    <br />
+    <div id="new-comment" class="hidden">
+        <form>
+            <table id="new-comment-table">
+                <colgroup>
+                    <col style="width:35%">
+                    <col style="width:65%">
+                </colgroup>
+                <tr>
+                    <th>Korisnicko ime:</th>
+                    <td id="comment-username">Marko</td>
+                </tr>
+                <tr>
+                    <th>Naziv Centra:</th>
+                    <td id="comment-fc-name">Centar</td>
+                </tr>
+                <tr>
+                    <th>Ocena (1-5):</th>
+                    <td><input id="comment-grade" type="number" min="1" max="5" /></td>
+                </tr>
+                <tr>
+                    <th>Komentar:</th>
+                    <td><input id="comment-content" type="text" maxlength="128" /></td>
+                </tr>
+                <tr>
+                    <th colspan="2" align="center"><button id="cancel-comment">Cancel</button><button id="make-comment" type="submit">Potvrdi</button></th>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
